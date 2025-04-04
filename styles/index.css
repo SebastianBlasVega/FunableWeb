@@ -2,9 +2,22 @@
     body {
         font-size: 14px;
     }
-    input, button {
-        width: 100%;
-        padding: 8px;
+    h1{
+        text-align: center;
+        font-size: 24px;
+    }
+    img{
+        width: 300px;
+        height: auto;
+    }
+    select{
+        width: 70%;
+    }
+    input{
+        width: 70%;
+    }
+    button{
+        width: 50%;
     }
     
 }
