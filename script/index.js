@@ -4,6 +4,7 @@ document.getElementById("calcular").addEventListener("click", function() {
     let peso = document.getElementById("peso").value;
     let resultado = document.getElementById("container");
     let validacion=document.getElementById("validacion");
+    let musica = document.getElementById("audio");
     
 
 //validacion de datos
@@ -28,7 +29,7 @@ document.getElementById("calcular").addEventListener("click", function() {
     } else{
         if (peso >= 61) {
             resultado.innerHTML= `<img src="./img/image.png" alt="Gif de error" height="600px" ><Audio src="./audio/si tu.mp3" autoplay></Audio>  <button class="btn" onclick="location.reload()">Volver</button>`;
-        
+
         } else{
             resultado.innerHTML= '<h1>Andas piola baby</h1> <button class="btn" onclick="location.reload()">Volver</button>';
     }
